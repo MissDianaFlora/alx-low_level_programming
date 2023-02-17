@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - determins if a number is either positive or negative
+ * main - Determine if a number is either positive,zero  or negative
  *
- * Return Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else if (n > 0)
+	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
