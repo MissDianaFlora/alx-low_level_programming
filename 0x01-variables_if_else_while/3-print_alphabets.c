@@ -7,15 +7,19 @@
  */
 int main(void)
 {
-	char ch;
+	char ch = 'a';
 
-	printf("print the letters in upper case followed by lower case");
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (ch <= 'z')
+	{
 		putchar(ch);
-		putchar('\n');
-	for (ch = 'A'; ch <= 'Z'; ch++)
+		ch++;
+	}
+	ch = 'A';
+	while (ch <= 'Z')
+	{
 		putchar(ch);
-		putchar ('\n');
-		getch();
+		ch++;
+	}
+	putchar('\n');
 	return (0);
 }
