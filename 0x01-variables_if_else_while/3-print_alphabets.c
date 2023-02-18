@@ -10,10 +10,10 @@ int main(void)
 	char ch;
 
 	printf("print the letters in upper case followed by lower case");
-	for (ch = 'A'; ch <= 'Z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
 		putchar('\n');
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
 		putchar ('\n');
 		getch();
