@@ -34,7 +34,7 @@ int main(void)
 			if (x + j != 17)
 			{
 				putchar(',');
-				putchar(',');
+				putchar(' ');
 			}
 		}
 		x++;
